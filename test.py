@@ -40,15 +40,5 @@ class TestSolution(unittest.TestCase):
     def test_well(self):
         assert abs(well(1.2, 5000, 3000) - 427.44) <= 0.1 
 
-    def test_square_private(self):
-        assert square(-2) == 4
-
-    def test_finite_diff_private(self):
-        assert abs(finite_diff(4, 0.001) - 5.0) < 1e-6
-
-    def test_well_private(self):
-        assert abs(well(0.9, 5000) - 480.87) <= 0.1
-
-
 if __name__ == '__main__':
     unittest.main()

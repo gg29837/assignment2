@@ -1,0 +1,7 @@
+name: assignment2
+channels:
+  - defaults
+dependencies:
+  - ipython=8.25.0
+  - nbconvert=7.10.0
+  - python=3.11.9

@@ -9,7 +9,7 @@ RUN apt-get update; \
     rm -rf /var/lib/apt/lists/*
 
 RUN conda install mamba -c conda-forge -y; \
-    mamba install jupyterlab=4.0.7jupyterlab-git -c conda-forge -y; \
+    mamba install python=3.11.9 jupyterlab=4.0.7 jupyterlab-git=0.50.1 -c conda-forge -y; \
     if [ -f "/tmp/conda-tmp/environment.yml" ]; then umask 0002 && mamba env update -n base -f /tmp/conda-tmp/environment.yml; fi \
     && cat /tmp/conda-tmp/conda_init.txt >> /home/vscode/.bashrc \
     && rm -rf /tmp/conda-tmp; \

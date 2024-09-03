@@ -1,6 +1,6 @@
 # Assignment 2
 
-![Assignment 2](https://github.com/PGE323M/assignment2-solution/workflows/.github/workflows/main.yml/badge.svg)
+![Assignment 2](https://github.com/PGE323M/assignment2/workflows/.github/workflows/main.yml/badge.svg)
 
 Open the [Assignment 2 Jupyter Notebook](assignment2.ipynb) and follow the instructions.
 
